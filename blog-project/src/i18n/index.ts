@@ -1,8 +1,9 @@
 import enUS from './en-us';
 import trTR from './tr-tr';
+import frFR from './fr-fr';
 
 export default {
   'en': enUS,
-  'tr': trTR
-
+  'tr': trTR,
+  'fr': frFR
 };
