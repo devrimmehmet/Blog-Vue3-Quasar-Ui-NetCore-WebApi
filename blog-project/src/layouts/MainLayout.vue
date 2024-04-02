@@ -100,17 +100,17 @@
             <q-list>
               <q-item class="text-primary" clickable v-ripple @click="changeLanguage('tr')">
                 <q-item-section>
-                  <q-img src="../assets/images/flags/turkish-flag.png" style="width: 30px; margin: 0px;" />
+                  <q-img src="../assets/images/turkish-flag.png" style="width: 30px; margin: 0px;" />
                 </q-item-section>
               </q-item>
               <q-item class="text-primary" clickable v-ripple @click="changeLanguage('en')">
                 <q-item-section>
-                  <q-img src="../assets/images/flags/english-flag.png" style="width: 30px; margin: 0px;" />
+                  <q-img src="../assets/images/english-flag.png" style="width: 30px; margin: 0px;" />
                 </q-item-section>
               </q-item>
               <q-item class="text-primary" clickable v-ripple @click="changeLanguage('fr')">
                 <q-item-section>
-                  <q-img src="../assets/images/flags/french-flag.png" style="width: 30px; margin: 0px;" />
+                  <q-img src="../assets/images/french-flag.png" style="width: 30px; margin: 0px;" />
                 </q-item-section>
               </q-item>
             </q-list>
@@ -152,11 +152,13 @@
     </q-page-container>
 
   </q-layout>
-  <center>  <q-footer elevated>
+  <center>
+    <q-footer elevated>
     <q-toolbar>
           <q-toolbar-title>@ {{ $t('footer.copyright')}}</q-toolbar-title>
         </q-toolbar>
-      </q-footer></center>
+      </q-footer>
+      </center>
 </template>
 
 <script setup lang="ts">
@@ -203,11 +205,11 @@ const changeLanguage = (locale: any) => {
 const selectedLanguageFlag = computed(() => {
   switch (selectedLanguage.value) {
     case 'tr':
-      return './src/assets/images/flags/turkish-flag.png';
+      return 'https://polyglotthinker.com/images/turkish-flag.png';
       case 'en':
-      return './src/assets/images/flags/english-flag.png';
+      return 'https://polyglotthinker.com/images/english-flag.png';
       case 'fr':
-      return './src/assets/images/flags/french-flag.png';
+      return 'https://polyglotthinker.com/images/french-flag.png';
     default:
       return '';
   }
