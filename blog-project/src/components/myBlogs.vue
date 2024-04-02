@@ -1,7 +1,7 @@
 <template>
   <div class="col-lg-4 col-md-4 col-sm-4">
     <article class="post-grid mb-5" style="border: 5px yellowgreen solid;padding:5%; margin:2%">
-      <a class="post-thumb mb-4 d-block position-relative" href="../assets/images/canakkale-blog.jpeg">
+      <a class="post-thumb mb-4 d-block position-relative" href="/#/canakkale-turkusu-yazari/">
        <center> <img src="../assets/images/canakkale-blog.jpeg" style="width: 100%; max-width: max-content;" alt="" class="img-fluid"></center>
         <div class="overlay"></div>
       </a>
@@ -13,14 +13,14 @@
         </div><br>
         <div style="position: relative;">
         <span style=" position: absolute;   right: 0; " class="cat-name text-color font-extra font-sm text-uppercase letter-spacing">{{ $t('categories.research')}} - {{ $t('categories.attempt')}}</span></div>
-        <center>      <h5 class="post-title mt-2"><a href="canakkale-turkusu-yazari.html" class="text-black">Çanakkale Türküsünün Yazarı</a></h5></center>
-        <p class="text-black">Çanakkale Türküsü ve yazarı hakkında yaptığım araştırmalarımdan hazırladığım deneme yazıma gitmek için tıklayın.</p>
+        <center>      <h5 class="post-title mt-2"><a href="/#/canakkale-turkusu-yazari/" class="text-black">{{ $t('myblogmain.title')}}</a></h5></center>
+        <p class="text-black">{{ $t('myblogmain.detail')}}</p>
       </div>
     </article>
   </div>
   <div class="col-lg-4 col-md-4 col-sm-4">
     <article class="post-grid mb-5" style="border: 5px yellowgreen solid;padding:5%; margin:2%">
-      <a class="post-thumb mb-4 d-block position-relative" href="../assets/images/canakkale-blog.jpeg">
+      <a class="post-thumb mb-4 d-block position-relative" href="/#/canakkale-turkusu-yazari/">
        <center> <img src="../assets/images/canakkale-blog.jpeg" style="width: 100%; max-width: max-content;" alt="" class="img-fluid"></center>
         <div class="overlay"></div>
       </a>
@@ -32,14 +32,14 @@
         </div><br>
         <div style="position: relative;">
         <span style=" position: absolute;   right: 0; " class="cat-name text-color font-extra font-sm text-uppercase letter-spacing">{{ $t('categories.research')}} - {{ $t('categories.attempt')}}</span></div>
-        <center>      <h5 class="post-title mt-2"><a href="canakkale-turkusu-yazari.html" class="text-black">Çanakkale Türküsünün Yazarı</a></h5></center>
-        <p class="text-black">Çanakkale Türküsü ve yazarı hakkında yaptığım araştırmalarımdan hazırladığım deneme yazıma gitmek için tıklayın.</p>
+        <center>      <h5 class="post-title mt-2"><a href="/#/canakkale-turkusu-yazari/" class="text-black">{{ $t('myblogmain.title')}}</a></h5></center>
+        <p class="text-black">{{ $t('myblogmain.detail')}}</p>
       </div>
     </article>
   </div>
   <div class="col-lg-4 col-md-4 col-sm-4">
     <article class="post-grid mb-5" style="border: 5px yellowgreen solid;padding:5%; margin:2%">
-      <a class="post-thumb mb-4 d-block position-relative" href="../assets/images/canakkale-blog.jpeg">
+      <a class="post-thumb mb-4 d-block position-relative" href="/#/canakkale-turkusu-yazari/">
        <center> <img src="../assets/images/canakkale-blog.jpeg" style="width: 100%; max-width: max-content;" alt="" class="img-fluid"></center>
         <div class="overlay"></div>
       </a>
@@ -51,8 +51,8 @@
         </div><br>
         <div style="position: relative;">
         <span style=" position: absolute;   right: 0; " class="cat-name text-color font-extra font-sm text-uppercase letter-spacing">{{ $t('categories.research')}} - {{ $t('categories.attempt')}}</span></div>
-        <center>      <h5 class="post-title mt-2"><a href="canakkale-turkusu-yazari.html" class="text-black">Çanakkale Türküsünün Yazarı</a></h5></center>
-        <p class="text-black">Çanakkale Türküsü ve yazarı hakkında yaptığım araştırmalarımdan hazırladığım deneme yazıma gitmek için tıklayın.</p>
+        <center>      <h5 class="post-title mt-2"><a href="/#/canakkale-turkusu-yazari/" class="text-black">{{ $t('myblogmain.title')}}</a></h5></center>
+        <p class="text-black">{{ $t('myblogmain.detail')}}</p>
       </div>
     </article>
   </div>

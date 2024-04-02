@@ -12,42 +12,12 @@
         </q-toolbar-title>
 
 
-      <q-btn color="accent" label="Anasayfa" style="width: 100px;" class="q-mt-xs q-mr-xs">
-
-        <q-menu fit>
-          <q-list style="min-width: 100px">
-            <!-- <q-item clickable>
-              <q-item-section>New tab</q-item-section>
-            </q-item>
-            <q-item clickable>
-              <q-item-section>New incognito tab</q-item-section>
-            </q-item>
-            <q-separator />
-            <q-item clickable>
-              <q-item-section>Recent tabs</q-item-section>
-            </q-item>
-            <q-item clickable>
-              <q-item-section>History</q-item-section>
-            </q-item>
-            <q-item clickable>
-              <q-item-section>Downloads</q-item-section>
-            </q-item>
-            <q-separator />
-            <q-item clickable>
-              <q-item-section>Settings</q-item-section>
-            </q-item>
-            <q-separator />
-            <q-item clickable>
-              <q-item-section>Help &amp; Feedback</q-item-section>
-            </q-item> -->
-          </q-list>
-        </q-menu>
-      </q-btn>
-
-      <q-btn color="brown" label="Blogs"  style="width: 100px;" class="q-mt-xs q-mr-xs">
+        <q-btn color="accent" label="Anasayfa" style="width: 100px;" class="q-mt-xs q-mr-xs" @click="goToHomePage">
+</q-btn>
+      <!-- <q-btn color="brown" label="Blogs"  style="width: 100px;" class="q-mt-xs q-mr-xs">
         <q-menu fit class="toolbar-menu">
           <q-list style="min-width: 100px">
-            <!-- <q-item clickable>
+           <q-item clickable>
               <q-item-section>New tab</q-item-section>
             </q-item>
             <q-item clickable>
@@ -70,10 +40,10 @@
             <q-separator />
             <q-item clickable>
               <q-item-section>Help &amp; Feedback</q-item-section>
-            </q-item> -->
+            </q-item>
           </q-list>
         </q-menu>
-      </q-btn>
+      </q-btn> -->
 
       <q-btn color="indigo" label="Contact"  style="width: 100px;" class="q-mt-xs q-mr-xs">
         <q-menu fit class="toolbar-menu">
@@ -161,22 +131,19 @@
     </q-drawer>
 
     <q-drawer show-if-above v-model="rightDrawerOpen" side="right" elevated style="margin-top: 10%;">
-          <!-- right  drawer content -->
-      <div class="q-pa-md">
-    <div class="q-gutter-sm">
-      <q-badge color="teal">
-        Model: {{ model }}
-      </q-badge>
-      <q-badge color="purple" text-color="white" class="q-ma-md">
-        Mask: YYYY-MM-DD HH:mm
-      </q-badge>
-    </div>
+      <!-- right  drawer content -->
+      <center>   <div class="q-pa-md flex-center">
+        <q-badge color="teal" class="text-h6">
+    {{ currentDateTime }}
+        </q-badge>
+      </div></center>
 
-    <div class="q-gutter-md row items-start">
-      <q-date v-model="model" mask="YYYY-MM-DD HH:mm" color="purple" />
-      <q-time v-model="model" mask="YYYY-MM-DD HH:mm" color="purple" />
-    </div>
-  </div>
+      <div class="q-gutter-md row items-start flex-center">
+        <q-date v-model="currentDate" mask="YYYY-MM-DD" color="blue" />
+        <!-- <q-time v-model="currentTime" mask="HH*mm**ss" with-seconds color="blue"/> -->
+     <br> Yayınlanma Tarihi
+        <q-date v-model="publishDate" mask="YYYY-MM-DD" color="blue" />
+      </div>
     </q-drawer>
 
     <q-page-container>
@@ -187,19 +154,46 @@
   </q-layout>
   <center>  <q-footer elevated>
     <q-toolbar>
-          <q-toolbar-title>© Copyright 2024 - Polyglot Thinker. All Rights Reserved. Polyglot Thinker</q-toolbar-title>
+          <q-toolbar-title>@ {{ $t('footer.copyright')}}</q-toolbar-title>
         </q-toolbar>
       </q-footer></center>
 </template>
 
 <script setup lang="ts">
-import { ref,computed} from 'vue';
+import { ref,computed,onMounted} from 'vue';
 import { useI18n } from 'vue-i18n';
-
+import { useRouter } from 'vue-router';
+const router = useRouter();
+const publishDate='2024-03-21';
 const { locale: i18n, t } = useI18n({ useScope: 'global' })
 const selectedLanguage = ref('en');
 
+const currentDateTime = ref<string>(new Date().toLocaleString('tr-TR', { timeZone: 'Europe/Istanbul' }).slice(0, 19));
+const currentDate = ref<string>(new Date().toISOString().slice(0, 10));
+  const currentTime = ref<string>('');
 
+const updateCurrentTime = () => {
+  const now = new Date();
+  const hours = now.getHours().toString().padStart(2, '0');
+  const minutes = now.getMinutes().toString().padStart(2, '0');
+  const seconds = now.getSeconds().toString().padStart(2, '0');
+  currentTime.value = `${hours}*${minutes}**${seconds}`;
+};
+onMounted(() => {
+  setInterval(() => {
+    currentDateTime.value = new Date().toLocaleString('tr-TR', { timeZone: 'Europe/Istanbul' }).slice(0, 19);
+    currentDate.value = new Date().toISOString().slice(0, 10);
+    currentTime.value = new Date().toLocaleTimeString('tr-TR', { timeZone: 'Europe/Istanbul' }).slice(0, 5);
+  }, 1000); // Her saniye güncelle
+  updateCurrentTime();
+  setInterval(updateCurrentTime, 1000); // Her saniye güncelle
+});
+
+
+
+const goToHomePage = () => {
+  router.push('/');
+};
 const changeLanguage = (locale: any) => {
   console.log(locale);
   selectedLanguage.value = locale;
