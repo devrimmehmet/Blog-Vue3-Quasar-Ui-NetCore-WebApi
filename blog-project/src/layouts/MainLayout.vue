@@ -93,16 +93,16 @@
       <!-- Left drawer content -->
       <center>
         <q-avatar square size="250px" font-size="252px" color="teal" text-color="white" style="border-radius: 20px;">
-  <q-img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOf69pf7eggUiE1BS0pg99QVReNj5oI4-qEQ&usqp=CAU" style="width: 100%; height: 100%; object-fit: cover;" />
+  <q-img src="../assets/images/mka-1.jpg" style="width: 100%; height: 100%; object-fit: cover;" />
 </q-avatar>
 
   <q-avatar square size="250px" font-size="252px" color="teal" text-color="white" style="border-radius: 20px; margin-top: 20px;">
-  <q-img src="https://i.idefix.com/pimages/Content/Uploads/ArtistImages/artist__246461.jpg" style="width: 100%; height: 100%; object-fit: cover;" />
+  <q-img src="../assets/images/mka-2.jpg" style="width: 100%; height: 100%; object-fit: cover;" />
 </q-avatar>
 
 
 <q-avatar square size="250px" font-size="252px" color="teal" text-color="white" style="border-radius: 20px; margin-top: 20px;">
-  <q-img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Mustafa_Kemal_Atat%C3%BCrk_%28renklendirilmi%C5%9F%29_7.jpg" style="width: 100%; height: 100%; object-fit: cover;" />
+  <q-img src="../assets/images/mka-3.jpg" style="width: 100%; height: 100%; object-fit: cover;" />
 </q-avatar>
 
       </center>
