@@ -71,6 +71,10 @@ export default {
     p11:'Eğer ki Kars\'a bir gün uğrarsanız mutlaka ziyaret etmenizi tavsiye ederim.',
 
     resources:' Kaynakça',
+  }, maintance:{
+    maintancenotice1:'Bakımdayız',
+    maintancenotice2:'Web sitemiz güncelleniyor...',
+
   }
 
 }

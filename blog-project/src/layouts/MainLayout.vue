@@ -23,7 +23,7 @@
               <q-item-section> {{ $t('menu.Homepage') }}</q-item-section>
             </q-item>
             <q-separator />
-        <q-item clickable to="/">
+        <q-item clickable to="/Contact">
           <q-item-section> {{ $t('menu.Contact') }}</q-item-section>
         </q-item>
         <q-separator />
@@ -117,11 +117,15 @@
       </div></center>
 
       <div class="q-gutter-md row items-start flex-center">
+      </div>
         <q-date v-model="currentDate" mask="YYYY-MM-DD" color="blue" />
         <!-- <q-time v-model="currentTime" mask="HH*mm**ss" with-seconds color="blue"/> -->
-     <br>{{ $t('rightSidebar.PublishDate')}}
-        <q-date v-model="publishDate" mask="YYYY-MM-DD" color="blue" />
-      </div>
+     <!-- <br>{{ $t('rightSidebar.PublishDate')}}
+        <q-date v-model="publishDate" mask="YYYY-MM-DD" color="blue" /> -->
+
+
+        <TimelineComponent></TimelineComponent>
+
     </q-drawer>
 
     <q-page-container>
@@ -144,6 +148,7 @@
 </template>
 
 <script setup lang="ts">
+import TimelineComponent from '../components/TimelineComponent.vue';
 import { ref,computed,onMounted} from 'vue';
 import { useI18n } from 'vue-i18n';
 import { useRouter } from 'vue-router';

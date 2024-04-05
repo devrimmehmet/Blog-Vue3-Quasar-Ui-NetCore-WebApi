@@ -72,5 +72,9 @@ export default {
     p11:'Si vous vous rendez un jour à Kars, je vous recommande vivement de le visiter.',
 
     resources:'Ressources',
+  }, maintance:{
+    maintancenotice1:'Nous sommes en maintenance',
+    maintancenotice2:'Notre site Web est en cours de mise à jour...',
+
   }
 }
