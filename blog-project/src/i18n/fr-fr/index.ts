@@ -42,5 +42,35 @@ export default {
     p4:'en tant que personne qui excelle dans la mesure des syllabes et de la prosodie. , şiirlerinde iki vezni de başarıyla kullanır . Il a écrit des poèmes en Hakani, Çağatay ve idiomes azéris aussi. Grâce à sa maîtrise de Saz et des mots en tant que « Aşık », il est également mentionné sur les documents écrits comme un « Maître AŞIK ».Il a été considéré comme digne de la célébration des Aïk Père le 10 Turquie Aşıks en 1975 à Konya.Il a également obtenu de nombreux produits sur Divan et le public. ',
     p5:'Les produits qu’il a créés sur le poète Divan, il a suivi la tradition et les a rassemblés dans un livre Divan. Dans le style de la tradition du poète « Âşık », un de ses livres écrits  « 20 »  divers éditeurs ont été publiés. ',
     kaynakca:' Ressources ',
+  },
+  kafkascephesi:{
+
+    title:'Kafkas Devant',
+
+    title_main:'Je voudrais vous parler un peu du Front du Caucase, que j\'ai étudié et découvert en voyageant.',
+
+    p1:'Bonjour, ajourd\'hui je veux vous parler avec devant de kafkas.Parlons un peu d\'Enver pasa pour commencer De son vrai nom İsmail Enver, il est né sur la route de Divan à Istanbul. Son père s\'appelait Ahmet Bey, un Surre Emeni de Manastır, et sa mère Ayşe Hanım.',
+
+    p2:'Enver Bey est nommé attaché militaire de l\'Empire ottoman à Berlin le 5 mars 1909.Il a servi pendant près de deux ans, bien que de manière intermittente. Au cours de cette mission, son admiration pour la discipline de la structure sociale allemande et sa croyance en l\'invincibilité de l\'armée de terre se sont renforcées.',
+
+    p3:'Enver Bey, qui a établi des relations étroites avec les bureaucrates allemands lorsqu\'il était attaché militaire à Berlin et qui s\'est efforcé de développer les relations ottomanes-allemandes, n\'était pas satisfait de la politique ottomane de l\'Allemagne pendant les guerres balkaniques. Pendant et après les guerres balkaniques, la "politique de l\'Allemagne consistant à être un partenaire dans les projets de partage des terres ottomanes" avait dérangé Enver Bey. Cependant, Wangenheim, l\'ambassadeur allemand à Istanbul, pensait qu\'Enver Bey était une personne qui jouerait un rôle important dans l\'avenir de l\'Empire ottoman - s\'il vivait - et recommandait de maintenir des relations chaleureuses avec lui.',
+
+    p4:'Enver Bey, qui a établi des relations étroites avec les bureaucrates allemands et s\'est efforcé de développer les relations ottomanes-allemandes, n\'était pas satisfait de la politique ottomane de l\'Allemagne pendant les guerres balkaniques. Pendant et après les guerres balkaniques, la "politique de l\'Allemagne consistant à être un partenaire dans les projets de partage des terres ottomanes" dérange Enver Bey. Cependant, Wangenheim, l\'ambassadeur allemand à Istanbul, pensait qu\'Enver Bey était une personne qui jouerait un rôle important dans l\'avenir de l\'Empire ottoman - s\'il vivait - et recommandait au ministère allemand des Affaires étrangères de continuer à entretenir des relations chaleureuses avec lui.',
+
+    p5:'il est temps de parler de Sarıkamış',
+
+    p6:'Le front de Kafkas est le front où se sont affrontées les 2e et 3e armées de l\'Empire ottoman et l\'armée du Caucase de l\'Empire russe pendant la Première Guerre mondiale. Elle s\'est étendue aux villes de Trabzon, Bitlis, Muş et Van. ',
+
+    p7:'Avec la chute du régime tsariste en Russie, ces fronts ont été séparés au cours de la dernière année de la guerre. La République démocratique d\'Azerbaïdjan, fondée en 1918, se rangea du côté de l\'Empire ottoman et devint un allié lors de la bataille de Bakou. Pendant la campagne allemande du Caucase, l\'Allemagne a combattu aux côtés de la République démocratique de Géorgie contre les Ottomans.',
+
+    p8:'Quelques images du musée d\'histoire de Har sur le front des Kafkas.',
+
+    p9:'Ces sculptures réalistes que vous avez vues sont vraiment merveilleuses, saines pour les mains de ceux qui les ont faites.',
+
+    p10:' Merci pour ces informations historiques qui sont un cadeau pour nous.',
+
+    p11:'Si vous vous rendez un jour à Kars, je vous recommande vivement de le visiter.',
+
+    resources:'Ressources',
   }
 }
