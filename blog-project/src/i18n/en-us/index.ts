@@ -79,6 +79,26 @@ export default {
     maintancenotice1:'We are in maintenance',
     maintancenotice2:'Our Website is Being Updated...',
 
+  },
+  karsgari:{
+    title:'Kars Station',
+
+    title_main:'Hello, today I would like to tell you about Kars Station.',
+
+    p1:'Kars Station is the main railway station of TCDD located on Cumhuriyet Street in the provincial centre of Kars.It was built in 1899 by the Transcaucasian Railway as the Russian Empire wanted to have better control on the Ottoman front.',
+
+    p2:'Initially the tracks were of Russian style track gauge, after the Turkish recapture of Kars after the War of Independence, the station was taken over by the Turkish State Railways, but Kars remained outside the main railway network until 1939 due to the Russian track gauge.The narrow gauge was changed to standard gauge in 1957 and the wide gauge in 1962.',
+
+    p3:'Due to the closure of the border between Turkey and Armenia, there were no train services to the east of Kars between 1993 and 2011. After February 2011, Kars - Akyaka Regional Train started to run in the east of Kars again.',
+
+    p4:'Characteristics of the regional train ',
+
+    p5:'These trains, which have pulman seats because they travel short distances, will be very fun for you to travel in these comfortable, and safe seats. Since the seats are designed with human ergonomics in mind, they will make you comfortable throughout the journey. ',
+
+    p6:'There are daily departures for regional trains that take you to your destination in the shortest time and in the most reliable way. By using the regional train, you can reach your exams, holiday, business meeting on time and travel comfortably. ',
+
+    resources:'Resources',
+
   }
 
 }

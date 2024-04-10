@@ -21,6 +21,11 @@ const routes: RouteRecordRaw[] = [
     component: () => import('layouts/MainLayout.vue'),
     children: [{ path: '', component: () => import('pages/Contact.vue') }],
   },
+  {
+    path: '/kars-gari',
+    component: () => import('layouts/MainLayout.vue'),
+    children: [{ path: '', component: () => import('pages/kars-gari.vue') }],
+  },
 
 
   // Always leave this as last one,

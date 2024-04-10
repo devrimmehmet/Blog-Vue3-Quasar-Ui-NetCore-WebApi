@@ -76,5 +76,25 @@ export default {
     maintancenotice1:'Nous sommes en maintenance',
     maintancenotice2:'Notre site Web est en cours de mise à jour...',
 
+  },
+  karsgari:{
+    title:'Gare de Kars',
+
+    title_main:'Bonjour, aujourd\'hui je voudrais vous parler de la gare de Kars.',
+
+    p1:'La gare de Kars est la principale gare ferroviaire du TCDD, située dans la rue Cumhuriyet, dans le centre provincial de Kars. Elle a été construite en 1899 par le Chemin de fer transcaucasien, l\'Empire russe souhaitant mieux contrôler le front ottoman.',
+
+    p2:'Après la reprise de Kars par les Turcs à l\'issue de la guerre d\'indépendance, la gare a été reprise par les chemins de fer turcs, mais Kars est restée en dehors du réseau ferroviaire principal jusqu\'en 1939 en raison de l\'écartement russe des voies. L\'écartement étroit a été remplacé par l\'écartement standard en 1957 et l\'écartement large en 1962.',
+
+    p3:'En raison de la fermeture de la frontière entre la Turquie et l\'Arménie, il n\'y a pas eu de services ferroviaires à l\'est de Kars entre 1993 et 2011. Après février 2011, le train régional Kars - Akyaka a recommencé à circuler à l\'est de Kars.',
+
+    p4:'Caractéristiques du train régional ',
+
+    p5:'Ces trains, qui ont des sièges pour passagers parce qu\'ils parcourent de courtes distances, seront très agréables pour vous de voyager dans ces sièges confortables, agréables et sûrs. Les sièges étant conçus dans le respect de l\'ergonomie humaine, vous serez à l\'aise tout au long du voyage. ',
+
+    p6:'Les trains régionaux partent tous les jours et vous emmènent à votre destination dans les meilleurs délais et de la manière la plus fiable. En utilisant le train régional, vous pouvez vous rendre à vos examens, vacances ou réunions d\'affaires à temps et voyager confortablement.',
+
+    resources:'Ressources',
+
   }
 }

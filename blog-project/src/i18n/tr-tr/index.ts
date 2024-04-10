@@ -75,6 +75,26 @@ export default {
     maintancenotice1:'Bakımdayız',
     maintancenotice2:'Web sitemiz güncelleniyor...',
 
+  },
+  karsgari:{
+    title:'Kars Garı',
+
+    title_main:'Merhabalar bugün sizlere Kars Garı hakkında bahsetmek istiyorum.',
+
+    p1:'Kars Garı, Kars\'ın il merkezinde Cumhuriyet Caddesi üzerinde yer alan TCDD\'ye ait hemzemin ana tren istasyonudur.1899\'da Transkafkasya Demiryolu Tarafından Rus  İmparatorluğu\'nun Osmanlı cephesinde daha iyi kontrol sahibi olmak istemesiyle inşa edilmiştir.',
+
+    p2:'Başta raylar Rus tarzındaki hat açıklığındaydı, Kurtuluş savaşından sonra  Kars\'ın Türkiye tarafından geri alınması ardından Gar Türkiye Cumhuriyeti Devlet Demiryolları tarafından devralındı, ancak Kars Rus hat açıklığı nedeniyle  1939\'a kadar  demiryolları ana ağının dışında kaldı.Dar hat açıklığı ise 1957\'de , geniş hat açıklığı da 1962\'de standart hat açıklığına uygun şekilde değiştirildi.',
+
+    p3:'Türkiye - Ermenistan Sınırının kapanması nedeniyle 1993 - 2011 yılları arasında Kars\'ın doğusunda herhangi bir tren seferi yapılmamıştır. Şubat 2011 \'den sonra Kars - Akyaka Bölgesel Treni ile Kars\'ın doğusunda tren seferleri tekrar başlamıştır.',
+
+    p4:'Bölgesel tren özellikleri',
+
+    p5:'kısa mesafeli yol kat ettiklerinden dolayı pulman koltuklara sahip olan bu trenler, barındırdıkları  rahat, konforlu ve güvenli olan bu koltuklarda seyahat etmek sizler için de oldukça eğlenceli olacaktır. Koltuklar insan ergonomisini göz önünde bulundurularak tasarlandığı için yolculuk boyunca sizi rahat ettirecektir. ',
+
+    p6:'En kısa sürede, en güvenilir şekilde sizi gideceğiniz yere götüren bölgesel trenler için her gün sefer düzenlenmektedir. Bölgesel treni kullanarak sınavlarınıza, tatilinize, iş toplantınıza zamanında yetişebilir, konforlu bir şekilde seyahat edebilirsiniz.',
+
+    resources:' Kaynakça',
+
   }
 
 }
