@@ -135,7 +135,7 @@
 
   </q-layout>
   <center>
-    <q-footer elevated>
+    <q-footer elevated class="bg-grey-8 text-white">
   <q-toolbar>
     <q-toolbar-title class="text-caption">@ {{ $t('footer.copyright')}}</q-toolbar-title>
   </q-toolbar>

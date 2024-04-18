@@ -27,6 +27,12 @@ const routes: RouteRecordRaw[] = [
     children: [{ path: '', component: () => import('pages/kars-gari.vue') }],
   },
 
+  {
+    path: '/ozan-cobanoglu',
+    component: () => import('layouts/MainLayout.vue'),
+    children: [{ path: '', component: () => import('pages/ozan-cobanoglu.vue') }],
+  },
+
 
   // Always leave this as last one,
   // but you can also remove it

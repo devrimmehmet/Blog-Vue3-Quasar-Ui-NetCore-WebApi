@@ -95,6 +95,24 @@ export default {
 
     resources:' Kaynakça',
 
+  },
+
+  karsli_aktor:{
+    title:'Ozan Çobanoğlu Kimdir?',
+
+    title_main:'Merhabalar, bugün sizlerle KARS\'lı  bir aktör olan Ozan Çobanoğlu hakkında konuşmak isterim.',
+
+    p1:'6 Şubat 1980 Kars doğumlu bir Türk aktördür. Aşık Murat Çobanoğlu\'nun oğludur.Hacettepe Üniversitesi Devlet Konservatuvarı Tiyatro Bölümü\'nden 2004 yılında mezun olmuştur. İzmir ve Ankara  Develet Tiyatrolarında görev aldıktan sonra 2005 yılından itibaren Konya Devlet Tiyatroları\'nın kadrolu elemanı olarak görevine devam etmiştir.',
+
+    p2:'Samanyolu TV\'de  Tek Türkiye dizisinde başrol oyuncu olarak görev almıştır. İlk rolünü Sırlar Dünyası adlı eserde almıştır.Son rolünü de halen oynamakta olduğu Arka Sokaklar dizisinde almıştır.',
+
+    p3:'Eşi,  Ezgi  Sertel ile 2016 yılında evlenmiş ve bu evlilikten 3 çocukları olmuştur.Sırasıyla adları ise   Doruk Çobanoğlu, Tibet Çobanoğlu ve Mert Çobanoğlu\'dur',
+
+    p4:'Biraz da filmografisinden bahsedelim',
+
+    p5:'Sırlar Dünyası (2002)  Çocuklar Duymasın (2004)   Şubat Soğuğu (2005)  Yağmurdan Sonra (2006)  Beşinci Boyut (2007)  Tek Türkiye (2007-2011)  Kollama (2009 - 2010)  Anneler ile Kızları (2011)  Eksik Sayfalar (2012)  Fetih 1453 (2012)  İffet (2012)  Dila Hanım (2013 - 2014)   Galip Derviş (2013 - 2014)  Küçük Ağa (2014 - 2015)  Bir Deniz Hikayesi(2015)  Arka Sokaklar (2016 - günümüz)',
+    resources:'Resources'
+
   }
 
 }

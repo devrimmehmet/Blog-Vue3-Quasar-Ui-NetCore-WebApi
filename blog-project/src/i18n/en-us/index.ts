@@ -99,6 +99,24 @@ export default {
 
     resources:'Resources',
 
+  },
+
+  karsli_aktor:{
+    title:'Who is Ozan Çobanoğlu? ',
+
+    title_main:'Hello, today I would like to talk to you about Ozan Çobanoğlu, an actor from KARS',
+
+    p1:'Born on 6 February 1980 in Kars, he is a Turkish actor. He is the son of Aşık Murat Çobanoğlu. He graduated from Hacettepe University State Conservatory Theatre Department in 2004. After working in Izmir and Ankara State Theatres, he continued his duty as a permanent member of Konya State Theatres since 2005.',
+
+    p2:'He worked as the lead actor in the TV series Tek Turkey on Samanyolu TV.  He took his first role in the work called Secrets World. He took his last role in the series Arka Sokaklar, which he is still playing. ',
+
+    p3:'He married his wife, Ezgi Sertel, in 2016 and had 3 children from this marriage. Their names are Doruk Çobanoğlu, Tibet Çobanoğlu and Mert Çobanoğlu. ',
+
+    p4:'Let\'s talk about his filmography',
+
+    p5:'Sırlar Dünyası (2002)  Çocuklar Duymasın (2004)   Şubat Soğuğu (2005)  Yağmurdan Sonra (2006)  Beşinci Boyut (2007)  Tek Türkiye (2007-2011)  Kollama (2009 - 2010)  Anneler ile Kızları (2011)  Eksik Sayfalar (2012)  Fetih 1453 (2012)  İffet (2012)  Dila Hanım (2013 - 2014)   Galip Derviş (2013 - 2014)  Küçük Ağa (2014 - 2015)  Bir Deniz Hikayesi(2015)  Arka Sokaklar (2016 - günümüz)',
+    resources:'Resources'
+
   }
 
 }
