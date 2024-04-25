@@ -3,15 +3,15 @@
   <q-page class="row justify-center">
       <div class="container">
         <div class="row content-wrapper" style="margin: 5%">
+
           <div class="column column-left">
+
             <h3>{{ $t('kafkascephesi.title') }}</h3>
 
             <div class="image-container text-center">
               <img
-
                 src="../assets/images/kafkas-cephesi/kafkas-cephesi.png"
                 alt="Kafkas Cephesi"
-
                 class="img-fluid"
               />
             </div>
@@ -21,7 +21,6 @@
               <img
               src="../assets/images/kafkas-cephesi/enverpasa.png"
                 alt="Enver Paşa"
-                style="height: 250px;width: 350px;"
                 class="img-fluid"
               />
             </div>
@@ -90,7 +89,7 @@
 
             <p>
               <strong>{{ $t('kafkascephesi.resources') }}:</strong>
-              <a href=" https://ataturkansiklopedisi.gov.tr/bilgi/enver-pasa-1882-1922/">
+              <a href="https://ataturkansiklopedisi.gov.tr/bilgi/enver-pasa-1882-1922/">
                 Atatürk Ansiklopedisi
               </a>
               ,
@@ -103,6 +102,7 @@
               </a>
             </p>
           </div>
+
         </div>
       </div>
     </q-page>

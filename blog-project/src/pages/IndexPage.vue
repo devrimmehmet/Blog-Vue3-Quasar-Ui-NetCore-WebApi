@@ -30,6 +30,13 @@
               </my-blogs>
 
 
+              <!-- <my-blogs title="Cheese Museum" date="21/04/2024"
+              imgUrl="/images/peynir-muzesi/peynir-muzesi.png"
+              detailUrl="/peynir-muzesi/"
+                description="Hello, today I would like to talk to you about Ozan Çobanoğlu, an actor from KARS">
+              </my-blogs> -->
+
+
             </div>
         </div>
 

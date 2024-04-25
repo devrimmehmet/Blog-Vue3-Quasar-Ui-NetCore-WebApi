@@ -32,6 +32,11 @@ const routes: RouteRecordRaw[] = [
     component: () => import('layouts/MainLayout.vue'),
     children: [{ path: '', component: () => import('pages/ozan-cobanoglu.vue') }],
   },
+  {
+    path: '/peynir-muzesi',
+    component: () => import('layouts/MainLayout.vue'),
+    children: [{ path: '', component: () => import('pages/peynir-muzesi.vue') }],
+  },
 
 
   // Always leave this as last one,

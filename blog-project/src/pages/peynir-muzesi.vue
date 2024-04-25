@@ -3,81 +3,74 @@
 <q-page class="row justify-center">
     <div class="container">
       <div class="row content-wrapper" style="margin: 5%">
-
         <div class="column column-left">
-
-       <h3>{{ $t('karsgari.title') }}</h3>
-
-          <div class="image-container text-center">
-            <img
-              src="../assets/images/kars-gari/kars-gari.png"
-              alt="Kars Garı"
-              class="img-fluid"
-            />
-          </div>
-          <p>{{ $t('karsgari.p1') }}</p>
+          <h3>{{ $t('canakkale.title') }}</h3>
 
           <div class="image-container text-center">
             <img
-              src="../assets/images/kars-gari/kars-gari2.png"
-              alt="Kars Garı2"
+              src="../assets/images/ihsan-OZANOglu.jpeg"
+              alt="İhsan Ozanoğlu"
               class="img-fluid"
-
             />
           </div>
-          <p>{{ $t('karsgari.p2') }}</p>
+          <p>{{ $t('canakkale.p1') }}</p>
 
+          <div class="image-container text-center">
+            <img
+              src="../assets/images/ihsan-OZANOglu2.jpeg"
+              alt=""
+              class="img-fluid"
+            />
+          </div>
+          <p>{{ $t('canakkale.p3') }}</p>
+          <div class="image-container text-center">
+            <img
+              src="../assets/images/ihsan-OZANOglu4.jpeg"
+              alt=""
+              class="img-fluid"
+            />
+          </div>
 
-          <p>{{ $t('karsgari.p3') }}</p>
+          <p >{{ $t('canakkale.p5') }}</p>
 
         </div>
 
         <div class="column column-right">
-          <p>{{ $t('karsgari.p4') }}</p>
           <div class="image-container text-center">
             <img
-              src="../assets/images/kars-gari/kars-tren-1.png"
-              alt="Kars Tren 1"
-              class="img-fluid"
-            />
-          </div>
-          <div class="image-container text-center">
-            <img
-              src="../assets/images/kars-gari/kars-tren-2.png"
+              src="../assets/images/Kemani-KEVSER.jpeg"
               alt=""
               class="img-fluid"
-              style="width: 350px;"
             />
           </div>
+          <p>{{ $t('canakkale.p2') }}</p>
 
-          <p>{{ $t('karsgari.p5') }}</p>
 
           <div class="image-container text-center">
             <img
-              src="../assets/images/kars-gari/kars-tren-3.png"
-              alt="Kars Tren 3"
+              src="../assets/images/ihsan-OZANOglu3.jpeg"
+              alt=""
               class="img-fluid"
-              style="width: 350px;"
             />
           </div>
-
-          <p>{{ $t('karsgari.p6') }}</p>
-
+          <p>{{ $t('canakkale.p4') }}</p>
 
 
           <p>
-            <strong>{{ $t('karsgari.resources') }}:</strong>
-            <a href="https://tr.wikipedia.org/wiki/Kars_Garı">
-              tr.wikipedia.org
+            <strong>{{ $t('canakkale.kaynakca') }}:</strong>
+            <a href="https://teis.yesevi.edu.tr/madde-detay/ozanoglu-ihsan-ozanoglu">
+              teis.yesevi.edu.tr
             </a>
             ,
-            <a href="https://www.tcddtasimacilik.gov.tr/seferler/akyaka-kars">
-              tcddtasimacilik.gov.tr
+            <a href="https://kastamonu.ktb.gov.tr/TR-94799/asik-ihsan-ozanoglu.html">
+              kastamonu.ktb.gov.tr
             </a>
-
+            ,
+            <a href="https://www.kastamonuistiklal.com/canakkale-turkusunun-yazarinin-kastamonulu-oldugunu-biliyor-musunuz">
+              kastamonuistiklal.com
+            </a>
           </p>
         </div>
-
       </div>
     </div>
   </q-page>

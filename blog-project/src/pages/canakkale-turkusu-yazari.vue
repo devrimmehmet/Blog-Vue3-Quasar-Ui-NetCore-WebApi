@@ -3,6 +3,7 @@
 <q-page class="row justify-center">
     <div class="container">
       <div class="row content-wrapper" style="margin: 5%">
+
         <div class="column column-left">
           <h3>{{ $t('canakkale.title') }}</h3>
 
@@ -71,6 +72,7 @@
             </a>
           </p>
         </div>
+
       </div>
     </div>
   </q-page>
